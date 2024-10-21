@@ -27,8 +27,13 @@ header img {
     border-radius: 50%;
     margin-bottom: 20px;
 }
-h1, h2 {
+h1 {
     color: #ffffff;
+
+}
+h2{
+    color: #35424a;
+    
 }
 .section {
     margin-bottom: 20px;
