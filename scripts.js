@@ -1,5 +1,5 @@
   // Datos de ejemplo
-  const experiencias = [
+  const experiencia = [
     { puesto: "Sin Experiencia" }
 ];
 
@@ -12,13 +12,13 @@ const educacion = [
 
 // Función para agregar elementos a la lista
 function agregarElementos(datos, elementoId) {
-    const elemento = document.getElementById(elementoId);
+    const educacion = document.getElementById(elementoId);
     datos.forEach(item => {
         const div = document.createElement('div');
         div.innerHTML = `<h3>${item.puesto || item.titulo}</h3>
                          <p>${item.empresa || item.institucion}</p>
                          <p>${item.periodo || item.año}</p>`;
-        elemento.appendChild(div);
+        educacion.appendChild(div);
     });
 }
 
